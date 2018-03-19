@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html>        
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-    <script src="js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/UserPageStyles.css"/>
     <link rel="shortcut icon" href="Icons/HomeIcon.png" type="image/x-icon">
 
-<title>MainPage</title>
+<title>UserPage</title>
 <head></head>
 <body>
 
     <header>
         <div class="logo">
-            <a class="logo"><img class="logoImg" src="Icons/HomeIcon.png" title="MainPage"></a>
+            <a class="logo"><img class="logoImg" href="index.html" src="Icons/HomeIcon.png" title="MainPage"></a>
             <a class="logoName">Inspiregram</a>
         </div>    
         <div class="buttons">
             <a class="buttons"><img class="addPost" src="Icons/AddPost.png" title="Add new post"/><a> 
-            <a href="AuthorizationForm.html" class="buttons"><img class="sign" src="Icons/LogOutIcon.png" title="Sign"/></a>       
-            <a href="UserPage.html" class="buttons"><img class="userIcon" src="Icons/UserIcon.png" title="UserPage"/></a>  
+            <a class="buttons"><img class="sign" src="Icons/LogOutIcon.png" title="Sign"/></a>       
+            <a class="buttons"><img class="userIcon" src="Icons/UserIcon.png" title="UserPage"/></a>  
             <a class="userName">DaryaS</a>  
-        </div>         
-                
+        </div>      
     </header>
 
+    <div class="userInfo">
+        <img class="bigUserPhoto" src="Icons/UserIcon.png"/>  
+        <div class="bigUserName">DaryaS
+            <div class="status">Hello! How are you?))</div>
+        </div>
+    </div>
+
     <div class="searchBlock">
-        <input type="submit" class="searchBy" value="Search by: ">
-        <input type=search class="searchBy" placeholder="Author...">
-        
+        <input type="submit" class="searchBy" value="Search by: ">        
         <form><input type="date" name="calendar" class="searchBy"></form>
         
         <input type=search class="searchBy" placeholder="#Tags...">
         <input type="submit" class="searchBy" value="GO!">
     </div> 
 
+
 <div class="postsBand">
 
-    <!-- <div class="postHolder">
-            <img class="foto" src="Images/tree.jpg"/>             
+   <div class="postHolder">
+            <img class="photo" src="Images/tree.jpg"/>             
     
             <div class="authorName"><a><img class="like" src="Icons/Like.png" title="LIKE"/></a>
                 <a>DaryaS</a>
@@ -52,32 +56,11 @@
                 <div class="tag">#autumn</div>
                 <div class="tag">#yellow</div>
                 <div class="tag">#trees</div>
-            </div>
-        </div>
-
-
-    <div class="postHolder">
-            <img class="foto" src="Images/autumn.jpg"/>             
-    
-            <div class="authorName"><a><img class="like" src="Icons/Like.png" title="LIKE"/></a>
-                <a>DaryaS</a>
-                    <div class="date"> | 01.03.2018
-                            <div class="buttons">
-                                    <a><img class="delete" src="Icons/Delete.png" title="Delete post"/></a>
-                                    <a><img class="edit" src="Icons/Edit.png" title="Edit post"/></a> 
-                            </div>                                                                           
-                    </div>            
-            </div>     
-            <div class="description">Hey, that's so beautifull!!</div>
-            <div class="tags">
-                <div class="tag">#autumn</div>
-                <div class="tag">#yellow</div>
-                <div class="tag">#trees</div>
-            </div>
-        </div>
+            </div> 
+    </div>
 
     <div class="postHolder">
-            <img class="foto" src="Images/sea.jpg"/>             
+            <img class="photo" src="Images/autumn.jpg"/>             
     
             <div class="authorName"><a><img class="like" src="Icons/Like.png" title="LIKE"/></a>
                 <a>DaryaS</a>
@@ -94,10 +77,10 @@
                 <div class="tag">#yellow</div>
                 <div class="tag">#trees</div>
             </div>
-        </div>
+    </div>
 
     <div class="postHolder">
-            <img class="foto" src="Images/castle.jpg"/>             
+            <img class="photo" src="Images/sea.jpg"/>             
     
             <div class="authorName"><a><img class="like" src="Icons/Like.png" title="LIKE"/></a>
                 <a>DaryaS</a>
@@ -114,10 +97,10 @@
                 <div class="tag">#yellow</div>
                 <div class="tag">#trees</div>
             </div>
-        </div>
+        </div> 
 
     <div class="postHolder">
-            <img class="foto" src="Images/sea.jpg"/>             
+            <img class="photo" src="Images/castle.jpg"/>             
     
             <div class="authorName"><a><img class="like" src="Icons/Like.png" title="LIKE"/></a>
                 <a>DaryaS</a>
@@ -134,10 +117,10 @@
                 <div class="tag">#yellow</div>
                 <div class="tag">#trees</div>
             </div>
-        </div>
+        </div> 
 
     <div class="postHolder">
-            <img class="foto" src="Images/tree2.jpg"/>             
+            <img class="photo" src="Images/tree2.jpg"/>             
     
             <div class="authorName"><a><img class="like" src="Icons/Like.png" title="LIKE"/></a>
                 <a>DaryaS</a>
@@ -154,7 +137,7 @@
                 <div class="tag">#yellow</div>
                 <div class="tag">#trees</div>
             </div>
-        </div> -->           
+    </div>             
 
 </div>
 
@@ -174,5 +157,4 @@
 </footer>
 
 </body>
-<script src="js/domapi.js"></script>
 </html>
